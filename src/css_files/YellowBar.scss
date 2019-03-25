@@ -1,0 +1,28 @@
+.yellow_container {
+    //     background-image: url("../images/background-1.jpg");
+    //     background-size: 'cover';
+    //     background-position: 'center';
+    //     background-repeat: no-repeat;
+    background-color: #FFD724
+}
+
+.yellow_container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow_section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    text-align: center;
+}
+
+.number {
+    font-size: 3.5rem;
+}
+
+.yellow_title {
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
