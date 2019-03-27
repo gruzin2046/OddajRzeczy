@@ -3,8 +3,8 @@ import './../css_files/App.scss';
 import Header from "./Header.jsx"
 import YellowBar from "./YellowBar.jsx"
 import FourSteps from './FourSteps';
+import AboutUs from './AboutUs';
 import { library } from '@fortawesome/fontawesome-svg-core'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons'
 import { faBoxOpen } from '@fortawesome/free-solid-svg-icons'
 import { faGlasses } from '@fortawesome/free-solid-svg-icons'
@@ -18,9 +18,10 @@ library.add(faShippingFast)
 class App extends Component {
   render() {
     return (<div>
-      <Header></Header>
-      <YellowBar></YellowBar>
-      <FourSteps></FourSteps>
+      <Header />
+      <YellowBar />
+      <FourSteps />
+      <AboutUs />
     </div>
     );
   }
