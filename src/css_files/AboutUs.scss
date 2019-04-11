@@ -27,3 +27,14 @@
 .abutUs_description {
     font-size: 1.5rem;
 }
+
+.signature_image {
+    display: flex;
+    align-self: flex-end;
+    background-image: url("../images/signature.png");
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin: 40px;
+    background-size: contain;
+}
