@@ -4,6 +4,7 @@ import Header from "./Header.jsx"
 import YellowBar from "./YellowBar.jsx"
 import FourSteps from './FourSteps';
 import AboutUs from './AboutUs';
+import HelpDesc from './HelpDesc';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons'
 import { faBoxOpen } from '@fortawesome/free-solid-svg-icons'
@@ -22,6 +23,7 @@ class App extends Component {
       <YellowBar />
       <FourSteps />
       <AboutUs />
+      <HelpDesc />
     </div>
     );
   }
