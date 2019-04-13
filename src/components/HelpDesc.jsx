@@ -42,6 +42,11 @@ export default class FourSteps extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="helpOrganizationsNumb">
+                    <div className="numb 1">1</div>
+                    <div className="numb 2">2</div>
+                    <div className="numb 3">3</div>
+                </div>
             </section>
         </div>
         );

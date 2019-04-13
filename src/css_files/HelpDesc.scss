@@ -27,7 +27,8 @@
     border: 1px solid white;
 }
 
-.organization:hover {
+.organization:hover,
+.numb:hover {
     border: 1px solid black;
 }
 
@@ -68,4 +69,18 @@
 
 .orgDesc {
     font-size: 1.2rem;
+}
+
+.helpOrganizationsNumb {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+.numb {
+    width: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
 }
