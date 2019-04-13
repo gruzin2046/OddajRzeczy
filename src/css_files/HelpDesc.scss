@@ -38,36 +38,34 @@
     margin: 50px;
 }
 
-// .step {
-//     display: flex;
-//     flex-direction: column;
-//     padding: 60px;
-//     align-items: center;
-// }
+.organizationList {
+    width: 1300px;
+}
 
-// .big {
-//     font-size: 3rem;
-//     margin: 10px;
-// }
+.orgListItem {
+    display: flex;
+    justify-content: space-between;
+}
 
-// .step_desc {
-//     margin-top: 10px;
-//     padding-top: 10px;
-//     width: 200px;
-//     border-top: 1px solid black;
-//     font-size: 1.3rem;
-//     text-align: center;
-// }
+.orgListItemLeft {
+    border-bottom: 1px solid black;
+    height: 80px;
+    width: 650px;
+}
 
-// .btn {
-//     font-size: 2.5rem;
-//     width: 350px;
-//     padding: 30px;
-//     margin: 50px;
-//     border: 1px solid black;
-//     text-align: center;
-// }
+.orgListItemRight {
+    border-bottom: 1px solid black;
+    height: 40px;
+    width: 400px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
 
-// .btn:hover {
-//     background-color: rgba(0, 0, 0, 0.1)
-// }
+.orgName {
+    font-size: 2rem;
+}
+
+.orgDesc {
+    font-size: 1.2rem;
+}
