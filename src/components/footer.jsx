@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './../css_files/Footer.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class Footer extends Component {
     render() {
@@ -19,8 +20,16 @@ export default class Footer extends Component {
                         <div className="formLeft">
                             <textarea className="message" placeholder="Twoja wiadomość"></textarea>
                         </div>
+                        <button className="formBtn">Wyślij</button>
                     </div>
                 </div>
+                <div className="copywright">
+                    <p>Copywhight &copy; by Anna Dadej</p>
+                </div>
+                <div className="icons">
+                    <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+                </div>
+
             </div>
         </div>
         );

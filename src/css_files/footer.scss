@@ -5,14 +5,13 @@
 
 .footer_image {
     background-image: url("../images/footer_bg_img.jpg");
-    //width: 1563px;
     width: 100%;
-    height: 953px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .foorerFormContainer {
+    margin: 120px 0;
     display: flex;
     justify-content: flex-end;
 }
@@ -45,12 +44,38 @@
 input,
 textarea {
     height: 30px;
-    margin: 20px;
+    margin: 30px 0;
     background: none;
     border: none;
     border-bottom: 1px solid black;
+    font-size: 1.2rem;
 }
 
 .message {
-    width: 460px;
+    width: 500px;
+}
+
+.formBtn {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.formBtn:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.copywright {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
 }
