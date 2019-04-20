@@ -23,13 +23,12 @@ export default class Footer extends Component {
                         <button className="formBtn">Wyślij</button>
                     </div>
                 </div>
-                <div className="copywright">
-                    <p>Copywhight &copy; by Anna Dadej</p>
+                <div className="bottom">
+                    <p className="copywright">Copywhight &copy; by Anna Dadej</p>
+                    <div className="socialMedia">
+                        <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+                    </div>
                 </div>
-                <div className="icons">
-                    <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                </div>
-
             </div>
         </div>
         );
