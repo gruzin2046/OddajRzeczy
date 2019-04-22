@@ -7,7 +7,6 @@ import AboutUs from './AboutUs';
 import HelpDesc from './HelpDesc';
 import Footer from './Footer';
 import { library } from '@fortawesome/fontawesome-svg-core'
-//import { fab } from "@fortawesome/free-brands-svg-icons"
 import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons'
 import { faBoxOpen } from '@fortawesome/free-solid-svg-icons'
 import { faGlasses } from '@fortawesome/free-solid-svg-icons'
@@ -16,7 +15,6 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons"
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(fab, faHandHoldingHeart, faBoxOpen, faGlasses, faShippingFast, faFacebookF)
-//fab.add(faFacebookF)
 
 class App extends Component {
   render() {
