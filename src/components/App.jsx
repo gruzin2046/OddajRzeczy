@@ -7,14 +7,10 @@ import AboutUs from './AboutUs';
 import HelpDesc from './HelpDesc';
 import Footer from './Footer';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons'
-import { faBoxOpen } from '@fortawesome/free-solid-svg-icons'
-import { faGlasses } from '@fortawesome/free-solid-svg-icons'
-import { faShippingFast } from '@fortawesome/free-solid-svg-icons'
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons"
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faHandHoldingHeart, faBoxOpen, faGlasses, faShippingFast } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons"
 
-library.add(fab, faHandHoldingHeart, faBoxOpen, faGlasses, faShippingFast, faFacebookF)
+library.add(faHandHoldingHeart, faBoxOpen, faGlasses, faShippingFast, faFacebookF, faTwitter)
 
 class App extends Component {
   render() {

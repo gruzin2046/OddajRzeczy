@@ -25,8 +25,13 @@ export default class Footer extends Component {
                 </div>
                 <div className="bottom">
                     <p className="copywright">Copywhight &copy; by Anna Dadej</p>
-                    <div className="socialMedia">
-                        <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+                    <div className="socialMediaBlock">
+                        <div className="socialMedia">
+                            <FontAwesomeIcon icon={['fab', 'twitter']} />
+                        </div>
+                        <div className="socialMedia">
+                            <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+                        </div>
                     </div>
                 </div>
             </div>
